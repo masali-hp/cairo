@@ -127,6 +127,7 @@ set(cairo_sources
     cairo-image-info.c 
     cairo-image-source.c 
     cairo-image-surface.c 
+    cairo-line.c
     cairo-lzw.c 
     cairo-matrix.c 
     cairo-mask-compositor.c 
@@ -150,6 +151,7 @@ set(cairo_sources
     cairo-path-stroke-traps.c 
     cairo-path-stroke-tristrip.c 
     cairo-pattern.c 
+    cairo-pdf-interchange.c
     cairo-pen.c 
     cairo-polygon.c 
     cairo-polygon-intersect.c 
@@ -180,6 +182,8 @@ set(cairo_sources
     cairo-tor-scan-converter.c 
     cairo-tor22-scan-converter.c 
     cairo-clip-tor-scan-converter.c 
+    cairo-tag-attributes.c
+    cairo-tag-stack.c
     cairo-toy-font-face.c 
     cairo-traps.c 
     cairo-tristrip.c 

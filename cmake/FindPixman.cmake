@@ -62,6 +62,8 @@ FIND_LIBRARY(PIXMAN_LIBRARY
     PATH_SUFFIXES
         "lib"
         "local/lib"
+        "Release"
+        "Debug"
 ) 
 
 SET(PIXMAN_LIBRARIES 
