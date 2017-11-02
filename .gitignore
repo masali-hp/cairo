@@ -35,3 +35,15 @@ stamp-h.in
 *.rej
 *-uninstalled.pc
 .vimrc
+build/.vs/*
+build/CMakeFiles
+build/src/*
+build/ALL_BUILD*
+build/INSTALL*
+build/ZERO_CHECK*
+build/CMakeCache.txt
+build/cairo-features.h
+build/cairo.sln
+build/cmake_install.cmake
+build/x64/*
+build/Win32/*
